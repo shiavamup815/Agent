@@ -1,0 +1,27 @@
+openai
+streamlit
+python-dotenv
+langchain_openai
+langchain_groq
+langchain
+langchain-core
+langchain_community
+google-generativeai
+PyMuPDF
+langchain-google-genai
+crewai_tools
+crewai>=0.30.0
+PyPDF2
+
+# GEMINI_API_KEY="AIzaSyDqRhGpUFS2tl3FovaCS0cvSSKFwMQ2qO8"
+
+# GMAIL_USER=""
+# GMAIL_PASSWORD=""
+# GMAIL_RECIPIENT="funnytimesbuddy@gmail.com"
+#GMAIL_USER="shivamguptawb815@gmail.com"
+#GMAIL_PASSWORD="Shivam@123"
+#GEMINI_API_KEY="AIzaSyDqRhGpUFS2tl3FovaCS0cvSSKFwMQ2qO8"
+
+#GMAIL_USER="funnytimesbuddy@gmail.com"
+#GMAIL_PASSWORD="fxmgrhoqaqynjtjk"
+#GMAIL_RECIPIENT="funnytimesbuddy@gmail.com"
