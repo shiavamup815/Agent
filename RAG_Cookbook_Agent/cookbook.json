@@ -1,0 +1,84 @@
+{
+    "log_cookbook": [
+        {
+            "error_message": "ERROR: Failed to fetch from repository.",
+            "solution": "Check network access and repository URL. Ensure SSH keys or credentials are valid."
+        },
+        {
+            "error_message": "ERROR: Authentication failed during Git clone.",
+            "solution": "Verify Git credentials or SSH key and ensure access permissions are granted."
+        },
+        {
+            "error_message": "ERROR: Docker build failed.",
+            "solution": "restart server tomcat."
+        },
+        {
+            "error_message": "ERROR: YAML file has syntax errors.",
+            "solution": "Validate YAML file using an online linter or CI/CD platform validator."
+        },
+        {
+            "error_message": "ERROR: Script returned exit code 1.",
+            "solution": "Check the script output for the root cause. Add logging to understand script behavior."
+        },
+        {
+            "error_message": "ERROR: Pipeline timeout.",
+            "solution": "Optimize jobs or increase the timeout setting in pipeline configuration."
+        },
+        {
+            "error_message": "ERROR: Environment variable not found.",
+            "solution": "Ensure all required environment variables are set in the pipeline configuration."
+        },
+        {
+            "error_message": "ERROR: Package manager install failed.",
+            "solution": "Check package.json or requirements.txt for errors and try a clean install."
+        },
+        {
+            "error_message": "ERROR: Tests failed.",
+            "solution": "Review test logs and fix broken test cases. Ensure test environment is correctly set."
+        },
+        {
+            "error_message": "ERROR: Deployment failed due to missing credentials.",
+            "solution": "Check secrets management system and confirm credentials are injected into the job."
+        },
+        {
+            "error_message": "ERROR: Insufficient permissions to deploy.",
+            "solution": "Ensure the deployment token or service account has the required permissions."
+        },
+        {
+            "error_message": "ERROR: Job exceeded memory limits.",
+            "solution": "Optimize job memory usage or increase memory allocation in pipeline settings."
+        },
+        {
+            "error_message": "ERROR: Artifact upload failed.",
+            "solution": "Check artifact storage configuration and network accessibility."
+        },
+        {
+            "error_message": "ERROR: Branch not found.",
+            "solution": "Ensure the branch exists in the repository and the pipeline triggers on the correct branch."
+        },
+        {
+            "error_message": "ERROR: Docker login failed.",
+            "solution": "Verify Docker credentials and ensure the login command is correct in the script."
+        },
+        {
+            "error_message": "ERROR: SSL certificate error.",
+            "solution": "Ensure the target server has a valid certificate or configure CI to trust the certificate."
+        },
+        {
+            "error_message": "ERROR: Cannot connect to Kubernetes cluster.",
+            "solution": "Check kubeconfig and credentials used in the CI/CD pipeline. Ensure cluster is reachable."
+        },
+        {
+            "error_message": "ERROR: Node.js version mismatch.",
+            "solution": "Specify the correct Node.js version in the pipeline configuration or use version managers."
+        },
+        {
+            "error_message": "ERROR: Docker image not found.",
+            "solution": "Ensure the image name and tag are correct and the image is available in the registry."
+        },
+        {
+            "error_message": "ERROR: Job failed due to concurrency limit.",
+            "solution": "Adjust pipeline concurrency settings or wait for running jobs to finish."
+        }
+    ]
+}
